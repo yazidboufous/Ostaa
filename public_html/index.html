@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<!--Name: Yazid Boufous
+This the login page for the application -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/code.js"></script>
+
+    <title>index</title>
+</head>
+<body>
+
+
+    <div id="header"> Ostaa </div>
+    
+    <div id="container"> 
+
+        <div id="login"> 
+
+            <h1 class="text">Log in</h1>
+
+            <form id="user_form">
+                
+                <label for="username1">Username</label>
+                <input id="username1">
+                <br>
+                <label for="password1">Password</label>
+                <input type="password" id="password1">
+                <br>
+                <div id="loginfunc" onclick="login()">Log in</div>
+
+            </form>
+
+            <p id="message1"></p>
+
+        </div>
+       
+
+        <div id= "create-account">
+
+            <h1 class="text">Create Account</h1>
+
+            <form id="user_form">
+
+                <label for="username2">Username</label>
+                <input id="username2">
+                <br>
+                <label for="password2" >Password</label>
+                <input type="password" id="password2">
+                <br>
+                <div id="adduser" onclick="createAccount()">Create Account</div>
+                
+            </form>
+
+            <p id="message2"></p>
+            
+        </div>
+
+       
+
+    </div>
+    
+</body>
+</html>

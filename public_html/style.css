@@ -1,0 +1,183 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    background-color:#89ABE3FF ;
+}
+
+#header{
+    text-align: center;
+    padding:25px;
+    font-family:Impact;
+    font-size:45px;
+    letter-spacing: 1.5px;
+    background-color: rgb(245, 230, 226);
+
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:100px;
+}
+
+
+#login{
+    border-radius: 5px;
+    padding: 20px 60px;
+    text-align: center;
+    background-color: rgb(245, 230, 226);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+#create-account{
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 60px;
+    background-color: rgb(245, 230, 226);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+label{
+display: inline-block;
+width: 70px ;
+text-align: left;
+margin-top:8px;
+font-size: 16px;
+}
+
+input{
+    padding: 6px;
+    border-radius: 2px;
+    border: 1px solid #89ABE3FF;
+    margin-top: 10px;
+}
+
+
+#loginfunc, #adduser{
+    background-color: #89ABE3FF;
+    margin-top: 35px;
+    padding:10px 25px;
+    border:2px solid white ;
+    border-radius: 3pc;
+    color:white;
+    font-family:Impact;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.text{
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, sans-serif    
+}
+
+#search-container{
+text-align: center;
+}
+
+
+#search-container label{
+    width:130px;
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight:bolder;
+
+}
+
+#search-container input{
+        padding: 8px 320px 8px 7px;
+        margin: 40px 10px;
+        border-radius: 2px;
+        border: 1px solid black;
+    
+}
+
+#buttons{
+    display:flex;
+    justify-content: space-around;
+}
+
+#buttons button{
+    background-color:#89ABE3FF;
+    padding:12px;
+    border:2px solid white ;
+    border-radius:3px;
+    color:white;
+    font-family:Impact;
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+
+}
+
+.newdiv{
+    border: 2px solid white;
+    border-radius:4px;
+    padding: 20px;
+    text-align:center;
+    margin: 20px auto;
+    width:40%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+
+
+#form_title{
+    margin-left:20px;
+}
+
+#item_form{
+    margin-left: 20px;
+}
+
+#item_form input{
+    border:1px black solid;
+}
+
+#additem{
+    width:6%;
+    margin: 20px;
+    padding:8px;
+    background-color:#89ABE3FF;
+    padding:12px;
+    border:2px solid white ;
+    border-radius:3px;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family:Impact;
+}
+
+
+
+#search_butt{
+    margin: 20px;
+    padding:8px;
+    background-color:#89ABE3FF;
+    padding:12px;
+    border:2px solid white ;
+    border-radius:3px;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family:Impact;
+
+
+}
+
+
+.status{
+    width:20%;
+    text-align: center;
+    margin: 20px auto;
+    padding:8px;
+    background-color:white;
+    border:2px solid white ;
+    border-radius:3px;
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family:Impact;
+
+}
